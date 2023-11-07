@@ -1,0 +1,169 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CreatingGraphs$Edge",
+            "request": "launch",
+            "mainClass": "Graphs.CreatingGraphs$Edge",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "SubstringUnique",
+            "request": "launch",
+            "mainClass": "Tries.SubstringUnique",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "SubstringsUnique",
+            "request": "launch",
+            "mainClass": "Tries.SubstringsUnique",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "UniqueSubStrings",
+            "request": "launch",
+            "mainClass": "Tries.UniqueSubStrings",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "PrefixProblem",
+            "request": "launch",
+            "mainClass": "Tries.PrefixProblem",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "WordBreakProblem",
+            "request": "launch",
+            "mainClass": "Tries.WordBreakProblem",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "TrieInsertSearch",
+            "request": "launch",
+            "mainClass": "Tries.TrieInsertSearch",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "SubArraySumK",
+            "request": "launch",
+            "mainClass": "Hashing.SubArraySumK",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "LargestSubArraywithSum0",
+            "request": "launch",
+            "mainClass": "Hashing.LargestSubArraywithSum0",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "FindingItineraryFromTickets",
+            "request": "launch",
+            "mainClass": "Hashing.FindingItineraryFromTickets",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "UnionAndInterJunction",
+            "request": "launch",
+            "mainClass": "Hashing.UnionAndInterJunction",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "DistinctElementCount",
+            "request": "launch",
+            "mainClass": "Hashing.DistinctElementCount",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashSetExample",
+            "request": "launch",
+            "mainClass": "Hashing.LinkedHashSetExample",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "HashSetIterator",
+            "request": "launch",
+            "mainClass": "Hashing.HashSetIterator",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "HashSetBasic",
+            "request": "launch",
+            "mainClass": "Hashing.HashSetBasic",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "Hashing.ValidAnagram",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "Hashing.MajorityElement",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "HashMapIteration",
+            "request": "launch",
+            "mainClass": "Hashing.HashMapIteration",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "HashMapOperations",
+            "request": "launch",
+            "mainClass": "Hashing.HashMapOperations",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "HashMapBasics",
+            "request": "launch",
+            "mainClass": "Hashing.HashMapBasics",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "KLevelElements",
+            "request": "launch",
+            "mainClass": "BinaryTrees.KLevelElements",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "Arrays2D",
+            "request": "launch",
+            "mainClass": "Arrays2D",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        },
+        {
+            "type": "java",
+            "name": "NropesAdd",
+            "request": "launch",
+            "mainClass": "Heaps.NropesAdd",
+            "projectName": "JavaByApnaCollege_79a0a131"
+        }
+    ]
+}
