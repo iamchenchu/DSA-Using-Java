@@ -27,7 +27,7 @@ public class BfsCreation {
             graph[0].add(new Edge(0, 2, 1));
 
             graph[1].add(new Edge(1, 0, 1));
-            graph[1].add(new Edge(1, 1, 1));
+            graph[1].add(new Edge(1, 3, 1));
 
             graph[2].add(new Edge(2, 0, 1));
             graph[2].add(new Edge(2, 4, 1));

@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.*;
 
-public class DfsCreation {
+public class HasPath {
 
     static class Edge {
         int src;
@@ -47,50 +47,45 @@ public class DfsCreation {
             graph[6].add(new Edge(6, 5, 1));
 
         }
-        // public static void bfs(ArrayList<Edge>[] graph)
-        // {
-        //     Queue<Integer> q = new LinkedList<>();
-        //     boolean vis[] = new boolean[graph.length];
-        //     q.add(0); // source = 0
+    
+        // public static void dfs(ArrayList<Edge>[] graph, int curr, boolean vis[]){
+        //     //visit
+        //     System.out.print(curr + " ");
+        //     vis[curr] = true ;
 
-        //     while(!q.isEmpty())
+        //     for(int i=0; i<graph[curr].size(); i++)
         //     {
-        //         int curr = q.remove();
-        //         if(!vis[curr])
-        //         { // visit currr
-        //             System.out.print(curr+" ");
-        //             vis[curr] = true;
-        //             for(int i =0; i<graph[curr].size(); i++)
-        //             {
-        //                 Edge e = graph[curr].get(i);
-        //                 q.add(e.dest);
-        //             }
-
-
+        //         Edge e = graph[curr].get(i);
+        //         if(!vis[e.dest])
+        //         {
+        //             dfs(graph, e.dest, vis);
         //         }
         //     }
         // }
 
-        public static void dfs(ArrayList<Edge>[] graph, int curr, boolean vis[]){
-            //visit
-            System.out.print(curr + " ");
-            vis[curr] = true ;
-
-            for(int i=0; i<graph[curr].size(); i++)
+        public static boolean hasPath(ArrayList<Edge>[] graph, int src, int dest, boolean vis[])
+        {
+            if(src == dest)
             {
-                Edge e = graph[curr].get(i);
-                if(!vis[e.dest])
+                return true;
+            }
+            vis[src] = true;
+            for(int i=0; i<graph[src].size(); i++)
+            {
+                Edge e = graph[src].get(i);
+                // e.dest is neighbor
+                if(!vis[e.dest] && hasPath(graph, e.dest, dest, vis))
                 {
-                    dfs(graph, e.dest, vis);
+                    return true;
                 }
             }
+            return false;
         }
-
         public static void main(String[] args) {
             int V = 7;
             ArrayList<Edge> graph[] = new ArrayList[V];
             createGraph(graph);
-            dfs(graph, 0, new boolean[V]);
+            System.out.println(hasPath(graph, 0, 4, new boolean[V]));
         }
 
     }
