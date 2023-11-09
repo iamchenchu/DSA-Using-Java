@@ -1,4 +1,6 @@
-*.DS_Store
-*.vscode  
+.DS_Store/
+*.vscode/launch.json 
 *.class
+.vscode/launch.json
+
 
