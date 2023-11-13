@@ -1,9 +1,9 @@
 package Graphs;
 
 public class UndirectedGraphCreation {
-        int[][] adjMatrix;
-        int V;
-        int E;
+        private int[][] adjMatrix;
+        private int V;  // number of vertices in the graph
+        private int E; // number of edges in the graph
 
         public UndirectedGraphCreation(int nodes)
         {
@@ -16,10 +16,10 @@ public class UndirectedGraphCreation {
     public void addEdge(int source, int dest)
     {
         this.adjMatrix[source][dest]=1;
-        this.adjMatrix[dest][source]=1;
+        this.adjMatrix[dest][source]=1;   // because it is an undirected graph
         E++;
     }
-    public String toString()
+    public String toString()              // this method is to give a string representation of the graph 
     {
         StringBuilder sb = new StringBuilder();
         sb.append(V + "vertices," + E + "edges"+"\n");
