@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CycleDetectionDFS",
+            "request": "launch",
+            "mainClass": "Graphs.CycleDetectionDFS",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
             "name": "UndirectedAdjacencyList",
             "request": "launch",
             "mainClass": "Graphs.UndirectedAdjacencyList",
