@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TopologicalSortBFS",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSortBFS",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
             "name": "CycleDetectionDirectedGDFS",
             "request": "launch",
             "mainClass": "Graphs.CycleDetectionDirectedGDFS",
