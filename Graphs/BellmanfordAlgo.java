@@ -46,6 +46,8 @@ public class BellmanfordAlgo {
         }
         int V = graph.length;
         //algo
+        // Total time complexity is O(V*E)
+        
         for(int i=0; i<V-1; i++) {
             //edges - O(E)
             for(int j=0; j<graph.length; j++) {
