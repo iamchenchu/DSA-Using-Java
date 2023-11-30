@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DijkstraAlgorithmExample",
+            "request": "launch",
+            "mainClass": "Graphs.DijkstraAlgorithmExample",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "DijkstraAlgorithm",
+            "request": "launch",
+            "mainClass": "Graphs.DijkstraAlgorithm",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "AllpathsFromStoD",
+            "request": "launch",
+            "mainClass": "Graphs.AllpathsFromStoD",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "Edge",
+            "request": "launch",
+            "mainClass": "Graphs.Edge",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
             "name": "TopologicalSortBFS",
             "request": "launch",
             "mainClass": "Graphs.TopologicalSortBFS",
