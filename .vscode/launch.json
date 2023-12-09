@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheapestFlights",
+            "request": "launch",
+            "mainClass": "Graphs.CheapestFlights",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
             "name": "PrimsAlgo",
             "request": "launch",
             "mainClass": "Graphs.PrimsAlgo",
