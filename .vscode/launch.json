@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DisjointSet",
+            "request": "launch",
+            "mainClass": "Graphs.DisjointSet",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
             "name": "ConnectingCities",
             "request": "launch",
             "mainClass": "Graphs.ConnectingCities",
