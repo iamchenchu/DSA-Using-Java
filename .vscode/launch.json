@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KTypeCasting",
+            "request": "launch",
+            "mainClass": "KTypeCasting",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "JTypeConversion",
+            "request": "launch",
+            "mainClass": "JTypeConversion",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "IAreaOfCircle",
+            "request": "launch",
+            "mainClass": "IAreaOfCircle",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "FInputProduct",
+            "request": "launch",
+            "mainClass": "FInputProduct",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "GInputSum",
+            "request": "launch",
+            "mainClass": "GInputSum",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "FInputFromUser",
+            "request": "launch",
+            "mainClass": "FInputFromUser",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "FInputFromUser",
+            "request": "launch",
+            "mainClass": "A01VariablesAndDataStructures.FInputFromUser",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "DDataTypes",
+            "request": "launch",
+            "mainClass": "A01VariablesAndDataStructures.DDataTypes",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "BPrintPattern",
+            "request": "launch",
+            "mainClass": "AVariablesAndDataStructures.BPrintPattern",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "A2PrintPattern",
+            "request": "launch",
+            "mainClass": "AVariablesAndDataStructures.A2PrintPattern",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
+            "name": "A1JavaBasics",
+            "request": "launch",
+            "mainClass": "A01VariablesAndDataStructures.A1JavaBasics",
+            "projectName": "DSA Using Java_8d7dfd7"
+        },
+        {
+            "type": "java",
             "name": "DisjointSet",
             "request": "launch",
             "mainClass": "Graphs.DisjointSet",

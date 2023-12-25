@@ -14,9 +14,9 @@ public class KTypeCasting {
         System.out.println(b);
 
         char ch = 'a';
-        int number = ch;
-
+        int number = ch;  // prints 97 
         System.out.println(number);
+        
 
     }
     
