@@ -1,4 +1,4 @@
-package A01VariablesAndDataStructures;
+
 public class AJavaBasics {
 
     public static void main(String[] args){

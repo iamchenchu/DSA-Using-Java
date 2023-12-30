@@ -8,9 +8,7 @@ public class MExercise2 {
         Scanner sc = new  Scanner(System.in);
         System.out.print("Please enter the side of a square :");
         int side = sc.nextInt();
-
         System.out.println("The area of the given square is : "+(side*side));
-
+        
     }
-    
 }
