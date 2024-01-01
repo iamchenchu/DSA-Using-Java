@@ -16,8 +16,8 @@ public class FBinomialCoefficient {
     public static int binomialCoefficient(int n, int r)
     {
         
-        int nfact =fact(n);
-        int rfact =fact(r);
+        int nfact = fact(n);
+        int rfact = fact(r);
         int nsubrFacr = fact(n-r);
         int bcoeff =nfact/rfact*(nsubrFacr);
         return bcoeff;
