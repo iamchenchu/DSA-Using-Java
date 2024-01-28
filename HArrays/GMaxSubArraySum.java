@@ -11,14 +11,12 @@ public class GMaxSubArraySum {
                 int end = j;
                 currSum = 0;
                 for(int k = start; k<=end; k++){
-                   
                     currSum += numbers[k];
                 }
                 System.out.println(currSum);
                 if(maxSum < currSum){
                     maxSum = currSum; 
                 }
-                
             }
         }
         System.out.println("The max sum is : "+ maxSum);
